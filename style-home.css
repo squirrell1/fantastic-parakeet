@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62,5%;
+}
+
+.page {
+    width: 1440px;
+    margin: 0 auto 0;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+    font-size: 3.6rem;
+}
+
+
+#logotipo{
+    font-size: 2rem;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+#input-pesquisa{
+    margin-top: 2rem;
+    margin-left: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 75rem;
+    height: 3rem;
+}
+
+.produtos{
+    display: grid;
+
+    grid-template-areas: 
+    "A B C"
+    "D E F"
+    ;
+
+    margin-top: 3.9rem;
+    margin-left: 2.5rem;
+    gap: 5rem;
+    align-items: center;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+footer #fale{
+    margin-top: 1.7rem;
+    margin-left: 2rem;
+}
+
